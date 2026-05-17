@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ispire Technologies provides end-to-end publishing services for worldwide clients with editorial, XML, typesetting, and design expertise.">
+  <title>Ispire Technologies | Publishing Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="container header-grid">
+      <a class="brand" href="#top" aria-label="Ispire Technologies Home">
+        <span class="brand-mark">IT</span>
+        <span class="brand-text">Ispire Technologies</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#purpose">Vision & Values</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#inquiry">Send Inquiry</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">End-to-End Publishing Support</p>
+          <h1>Reliable publishing solutions built around quality, speed, and client trust.</h1>
+          <p>
+            Ispire Technologies provides complete publishing services for global clients. Our professional team collaborates closely with your team to deliver accurate, clear, and production-ready content.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#services">Explore Services</a>
+            <a class="button button-outline" href="#inquiry">Talk to Our Team</a>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <h2>Why teams choose us</h2>
+          <ul>
+            <li>Commitment to reducing client costs through efficient execution</li>
+            <li>Collaborative workflows with onshore and offshore editorial support</li>
+            <li>Strong experience across style frameworks and publishing tools</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="about">
+      <div class="container panel reveal">
+        <h2>About Ispire Technologies</h2>
+        <p>
+          We provide end-to-end publishing services for worldwide customers and are privileged to support clients with an experienced professional staff. Our core aim is to deliver high customer satisfaction while supporting employee welfare.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-pad alt" id="purpose">
+      <div class="container purpose-grid">
+        <article class="purpose-card reveal">
+          <h2>Vision</h2>
+          <ul>
+            <li>Commitment to reducing client costs</li>
+            <li>Innovative thinking with diligent execution</li>
+            <li>Working as one team with our clients</li>
+          </ul>
+        </article>
+        <article class="purpose-card reveal">
+          <h2>Mission</h2>
+          <p>Our mission is to provide quality service that delights our clients.</p>
+        </article>
+        <article class="purpose-card reveal">
+          <h2>Values</h2>
+          <ul>
+            <li><strong>Customer Commitment:</strong> We build relationships that create positive outcomes for clients.</li>
+            <li><strong>Quality:</strong> We deliver outstanding service and premium value.</li>
+            <li><strong>Integrity:</strong> We uphold high standards in every action.</li>
+            <li><strong>Teamwork:</strong> We collaborate across boundaries to meet client needs.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-pad" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Service Portfolio</p>
+          <h2>Publishing services from manuscript to final production</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <h3>Editorial Pre-Editing</h3>
+            <p>Manuscript formatting, references, cross-references, and equation/table citation handling based on your specific editorial rules.</p>
+          </article>
+          <article class="service-card reveal">
+            <h3>Copyediting</h3>
+            <p>Technical editing, content verification, permissions checks, and style alignment across CMS, AMS, APA, AMA, and custom standards.</p>
+          </article>
+          <article class="service-card reveal">
+            <h3>Proofreading</h3>
+            <p>Careful quality checks to ensure language consistency, accuracy, and publication readiness.</p>
+          </article>
+          <article class="service-card reveal">
+            <h3>XML Conversion</h3>
+            <p>Technology-enabled XML conversion supported by skilled specialists for premium-quality output.</p>
+          </article>
+          <article class="service-card reveal">
+            <h3>Typesetting</h3>
+            <p>Support for STM books/journals, K-12 content, professional and trade publishing using InDesign, QuarkXPress, LaTeX, 3B2, XPP, and MS Word.</p>
+          </article>
+          <article class="service-card reveal">
+            <h3>Artwork & Cover Design</h3>
+            <p>Illustrations, cover templates, image processing, redrawing, relabeling, map/chart creation, and 2D/3D visual assets.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad alt" id="contact">
+      <div class="container contact-grid">
+        <article class="contact-card reveal">
+          <h2>Contact</h2>
+          <p>Let us know your project scope, turnaround expectations, and quality goals. We will get back to you promptly.</p>
+          <p><strong>Email:</strong> <a href="mailto:ispiretechnologies@gmail.com">ispiretechnologies@gmail.com</a></p>
+        </article>
+
+        <article class="contact-card reveal" id="inquiry">
+          <h2>Inquiry Form</h2>
+          <form id="inquiryForm" novalidate>
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" required>
+            <p class="field-error" id="nameError" aria-live="polite"></p>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+            <p class="field-error" id="emailError" aria-live="polite"></p>
+
+            <label for="company">Company (Optional)</label>
+            <input type="text" id="company" name="company">
+
+            <label for="service">Service Interested In*</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option value="Editorial Pre-Editing">Editorial Pre-Editing</option>
+              <option value="Copyediting">Copyediting</option>
+              <option value="Proofreading">Proofreading</option>
+              <option value="XML Conversion">XML Conversion</option>
+              <option value="Typesetting">Typesetting</option>
+              <option value="Artwork & Cover Design">Artwork & Cover Design</option>
+            </select>
+            <p class="field-error" id="serviceError" aria-live="polite"></p>
+
+            <label for="message">Message*</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <p class="field-error" id="messageError" aria-live="polite"></p>
+
+            <button class="button button-primary" type="submit">Submit Inquiry</button>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Ispire Technologies. All rights reserved.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
